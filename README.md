@@ -5,15 +5,14 @@ in tihs Raspberry Pi project I want to create a small Deskthing that projects th
 
 <h3>Used Hardware:</h3>
 <p>
+<table>
 Raspberri Pi Zero 2 W +
-
 DHT11 -> inside temperarture and humidity
-
 DS3231 -> a real time clock + date
-
 2.7" Waveshare e-paper display -> to display the information
+Openweathermap API -> to get outside weather information  
+</table>
 
-Openweathermap API -> to get outside weather information
 
 To get the Pi running i installed Raspberry Pi OS from the following site: https://www.raspberrypi.com/software/
 
