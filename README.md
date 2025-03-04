@@ -24,5 +24,5 @@ After setting the sensor with every needed libary up, i went and wrote some code
 
 Seeing that the sensor spits out data I went and wrote also code to gather outside temperatures using an API-Key from OpenWeatherMap (see code @ openweathermap.py)
 
-As i am lazy and do not want to start both codes seperatly, I wrote a script to open up both codes at the same time. (see code @ parallel.py)  
+Because i am lazy and do not want to start both codes seperatly, I wrote a script to open up both codes at the same time. (see code @ parallel.py)  
 </p>
