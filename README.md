@@ -3,8 +3,8 @@ Raspberry Pi weather and date project
 
 in tihs Raspberry Pi project I want to create a small Deskthing that projects the current time, the room temperature + humidity and also the weather from the outside. 
 
-<h1>Used Hardware:</h1>
-
+<h3>Used Hardware:</h3>
+<p>
 Raspberri Pi Zero 2 W +
 
 DHT11 -> inside temperarture and humidity
@@ -25,4 +25,5 @@ After setting the sensor with every needed libary up, i went and wrote some code
 
 Seeing that the sensor spits out data I went and wrote also code to gather outside temperatures using an API-Key from OpenWeatherMap (see code @ openweathermap.py)
 
-As i am lazy and do not want to start both codes seperatly, I wrote a script to open up both codes at the same time. (see code @ parallel.py)
+As i am lazy and do not want to start both codes seperatly, I wrote a script to open up both codes at the same time. (see code @ parallel.py)  
+</p>
