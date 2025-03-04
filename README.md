@@ -3,7 +3,7 @@ Raspberry Pi weather and date project
 
 in tihs Raspberry Pi project I want to create a small Deskthing that projects the current time, the room temperature + humidity and also the weather from the outside. 
 
-Used Hardware:
+<h1>Used Hardware:</h1>
 
 Raspberri Pi Zero 2 W +
 
