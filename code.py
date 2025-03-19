@@ -13,7 +13,7 @@ epd.init()
 dhtDevice = adafruit_dht.DHT11(board.D4)
 
 # OpenWeatherMap API Key
-API_KEY = "11df664fa77de0d58366431226ebc81d"
+API_KEY = "..."
 
 # Function to read DHT11 sensor data
 def read_sensor_data():
