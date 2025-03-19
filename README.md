@@ -38,6 +38,9 @@ To get started with this project, I installed Raspberry Pi OS from the official 
 ### 5. Final Code
 - After setting up all components, I wrote a comprehensive script (`code.py`) to display the necessary data on the e-paper display.
 
+## Additional Info
+- **Download `meteocons-font.zip` to get the small images next to the Weather information**
+  
 ## Example Use Cases
 - **Indoor Temperature and Humidity Monitoring**
 - **Outdoor Weather Updates**
