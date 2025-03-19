@@ -4,7 +4,7 @@ import time
 # API Key von OpenWeatherMap
 API_KEY = "paste in your API-KEY"
 
-def fetch_weather(Berlin):
+def fetch_weather(city_name):
     base_url = f"https://api.openweathermap.org/data/2.5/weather?q={Hamburg}&appid={API_KEY}&units=metric"
     try:
         response = requests.get(base_url)
@@ -24,7 +24,7 @@ def display_weather_info(weather_data):
         print("Fehler beim Abrufen der Wetterdaten.")
 
 def main():
-    city_name = "Berlin"  # Stadtname anpassen
+    city_name = "Hamburg"  # Stadtname anpassen
     while True:
         weather_data = fetch_weather(city_name)
         display_weather_info(weather_data)
