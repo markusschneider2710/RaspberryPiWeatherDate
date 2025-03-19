@@ -7,9 +7,17 @@ in tihs Raspberry Pi project I want to create a small Deskthing that projects th
 <p>
 <table>
 Raspberri Pi Zero 2 W +
+</table>
+<table>
 DHT11 -> inside temperarture and humidity
+</table>
+<table>
 DS3231 -> a real time clock + date
-2.7" Waveshare e-paper display -> to display the information
+</table>
+<table>
+4.2" Waveshare e-paper display -> to display the information
+</table>
+<table>
 Openweathermap API -> to get outside weather information  
 </table>
 
