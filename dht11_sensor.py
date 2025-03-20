@@ -2,12 +2,10 @@ import time
 import board
 import adafruit_dht
 
-# Initialisiere das DHT-Gerät
 dhtDevice = adafruit_dht.DHT11(board.D17)
 
-# Schwellenwerte für Temperatur und Feuchtigkeit
-TEMPERATUR_SCHWELLE = 25  # Grad Celsius
-FEUCHTIGKEIT_SCHWELLE = 60  # %
+TEMPERATUR_SCHWELLE = 25  
+FEUCHTIGKEIT_SCHWELLE = 60  
 
 def read_sensor_data():
     try:
@@ -32,7 +30,6 @@ def main():
                 )
             )
 
-            # Überprüfe, ob Fenster geöffnet werden sollten
             if temperature_c > TEMPERATUR_SCHWELLE or humidity > FEUCHTIGKEIT_SCHWELLE:
                 print("Achtung: Fenster sollten geöffnet werden, da die Temperatur oder Feuchtigkeit zu hoch ist.")
 
