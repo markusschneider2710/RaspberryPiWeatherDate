@@ -8,7 +8,7 @@ def fetch_weather(city_name):
     base_url = f"https://api.openweathermap.org/data/2.5/weather?q={Hamburg}&appid={API_KEY}&units=metric"
     try:
         response = requests.get(base_url)
-        response.raise_for_status()  # Überprüft, ob der HTTP-Statuscode OK ist
+        response.raise_for_status()  
         return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Fehler beim Abrufen der Wetterdaten: {e}")
@@ -24,12 +24,12 @@ def display_weather_info(weather_data):
         print("Fehler beim Abrufen der Wetterdaten.")
 
 def main():
-    city_name = "Hamburg"  # Stadtname anpassen
+    city_name = "Hamburg"  # city name
     while True:
         weather_data = fetch_weather(city_name)
         display_weather_info(weather_data)
         print(f"Letzte Aktualisierung: {time.strftime('%Y-%m-%d %H:%M:%S')}")
-        time.sleep(3600)  # Warte eine Stunde (3600 Sekunden)
+        time.sleep(3600)  # refresh time
 
 if __name__ == "__main__":
     main()
