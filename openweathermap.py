@@ -1,7 +1,7 @@
 import requests
 import time
 
-# API Key von OpenWeatherMap
+# API Key OpenWeatherMap
 API_KEY = "paste in your API-KEY"
 
 def fetch_weather(city_name):
