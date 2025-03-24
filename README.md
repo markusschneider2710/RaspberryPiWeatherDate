@@ -5,8 +5,6 @@ In this Raspberry Pi project, I designed a small desk display that shows the cur
   <img src="https://github.com/user-attachments/assets/3bb918e6-a601-4374-a3b2-8072e0ca0a2f" width="400" /> 
 </div>
 
-<img src="https://github.com/user-attachments/assets/3bb918e6-a601-4374-a3b2-8072e0ca0a2f" width="400" /> 
-
 <details>
 <summary>Used Hardware for this project</summary>
 
