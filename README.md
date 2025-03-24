@@ -41,6 +41,7 @@ To get started with this project, I installed Raspberry Pi OS from the official 
 
 ## Additional Info
 - **Download `meteocons-font.zip` to get the small images next to the Weather information**
+- **Right now the code is set up to refresh every three minutes to minimize the wear on the e-paper**
   
 ## Example Use Cases
 - **Indoor Temperature and Humidity Monitoring**
